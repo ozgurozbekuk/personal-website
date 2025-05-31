@@ -1,6 +1,7 @@
 import "./topbar.scss"
 import EmailIcon from '@mui/icons-material/Email';
 import PersonIcon from '@mui/icons-material/Person';
+import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 
 
 
@@ -9,14 +10,26 @@ function Topbar({menuOpen,setMenuOpen}) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#contact" className="logo">OzgurOdev</a>
+          <a href="#" className="logo">OzgurDev</a>
           <div className="itemContainer">
               <PersonIcon className="icon"/>
-              <span>+90553 8035382</span>
+              <a className="linkedin" href="http://www.linkedin.com/in/ozgurozbekuk" target="_blank" rel="noopener noreferrer"><span>Linkedin</span></a>
           </div>
           <div className="itemContainer">
               <EmailIcon className="icon" />
               <span>ozgurozbek.uk@gmail.com</span>
+          </div>
+          <div className="itemContainer">
+              <DownloadForOfflineIcon className="icon" />
+              <a
+                href="./assets/ozgurozbekCV.pdf"
+                className="linkedin"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Download CV</span>
+              </a>
           </div>
         </div>
         <div className="right">

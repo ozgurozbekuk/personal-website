@@ -23,6 +23,7 @@ function Intro() {
           <h2>Hi There,I'm</h2>
           <h1>Özgür Özbek</h1>
           <h3>Freelance <span ref={textRef}></span></h3>
+          <p>I build modern, responsive websites and web applications using React, Next.js, and WordPress. Passionate about clean design, user experience, and performance. With a problem-solving mindset, I deliver fast, functional, and visually appealing results. I'm excited to collaborate and create something great together!</p>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />
