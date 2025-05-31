@@ -10,7 +10,7 @@ function Topbar({menuOpen,setMenuOpen}) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#" className="logo">OzgurDev</a>
+          {/* <a href="#" className="logo">OzgurDev</a> */}
           <div className="itemContainer">
               <PersonIcon className="icon"/>
               <a className="linkedin" href="http://www.linkedin.com/in/ozgurozbekuk" target="_blank" rel="noopener noreferrer"><span>Linkedin</span></a>
