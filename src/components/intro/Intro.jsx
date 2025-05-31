@@ -8,14 +8,14 @@ function Intro() {
   const textRef = useRef();
 
   useEffect(()=>{
-    init(textRef.current, {backSpeed:60,backDelay:1500,showCursor:true, strings: ['developer',"designer" ] })
+    init(textRef.current, {backSpeed:60,backDelay:1500,showCursor:true, strings: ['Web','Front End','Developer' ] })
   },[])
 
   return (
     <div className='intro' id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/pp2.png" alt="" />
+          <img src="assets/heroimg.png" alt="" />
         </div>
       </div>
       <div className="right">

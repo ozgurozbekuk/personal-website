@@ -31,9 +31,10 @@
             img{
                 height: 90%;
                 width: 100%;
-                margin-bottom: 140px;
-                margin-left: 80px;
+                // margin-bottom: 140px;
+                // margin-left: 80px;
                 object-fit: cover;
+                border-radius: 50%;
 
                 @include mobile{
                     height: 65%;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import PortfolioList from "../portfolioList/PortfolioList"
 import "./portfolio.scss"
-import {featuredPortfolio,webPortfolio,mobilePortfolio,designPortfolio,contentPortfolio} from "../../data";
+import {realLife,reactApp,nextjs,wordpressWebsite,fullStackApp,python} from "../../data";
 
 function Portfolio() {
 
@@ -10,47 +10,54 @@ function Portfolio() {
 
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "real",
+      title: "Real Life",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "react",
+      title: "React App",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "nextjs",
+      title: "Next.js App",
     },
     {
-      id: "design",
-      title: "Design",
+      id:"wordpress",
+      title:"Wordpress Website"
     },
     {
-      id: "content",
-      title: "Content",
+      id: "fullstack",
+      title: "Full Stack App",
+    },
+    {
+      id: "python",
+      title: "Python",
     },
   ]
 
   useEffect(() =>{
 
     switch(selected){
-      case "featured":
-        setData(featuredPortfolio);
+      case "real":
+        setData(realLife);
         break;
-        case "web":
-        setData(webPortfolio);
+        case "react":
+        setData(reactApp);
         break;
-        case "mobile":
-        setData(mobilePortfolio);
+        case "nextjs":
+        setData(nextjs);
         break;
-        case "design":
-        setData(designPortfolio);
+        case "wordpress":
+        setData(wordpressWebsite);
         break;
-        case "content":
-        setData(contentPortfolio);
+        case "fullstack":
+        setData(fullStackApp);
+        break;
+        case "python":
+        setData(python);
         break;
         default:
-          setData(featuredPortfolio)
+          setData(realLife)
     }
   },[selected])
 

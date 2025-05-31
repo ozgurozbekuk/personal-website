@@ -18,7 +18,7 @@ function Works() {
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "Wordpress Web Site",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -27,7 +27,7 @@ function Works() {
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "SEO",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:

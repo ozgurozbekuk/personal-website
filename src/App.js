@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
-import Testimnl from "./components/testimnl/Testimnl";
+// import Testimnl from "./components/testimnl/Testimnl";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
@@ -21,7 +21,7 @@ function App() {
       <Intro/>
       <Portfolio/>
       <Works/>
-      <Testimnl/>
+      {/* <Testimnl/> */}
       <Contact/>
      </div>
     </div>
