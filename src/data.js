@@ -1,9 +1,9 @@
 export const realLife = [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Car Rental Website",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "/assets/bosscarrental.png",
     },
     {
       id: 2,
